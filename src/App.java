@@ -3,7 +3,9 @@ public class App {
         Acceso miAcceso = new Acceso();
         miAcceso.conectar();
         miAcceso.realizarConsulta("SELECT * FROM ALUMNOS");
+        System.out.println();
         System.out.println("***********************************");
+        System.out.println();
         miAcceso.realizarConsultaFormateada("SELECT * FROM ALUMNOS");
         
         
